@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Quicksand", sans-serif;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 11, 11, 0.87)), to(rgba(20, 19, 19, 0.61))), url("../images/nasa-pd4lo70LdbI-unsplash.jpg");
+  background-image: linear-gradient(rgba(12, 11, 11, 0.87), rgba(20, 19, 19, 0.61)), url("../images/nasa-pd4lo70LdbI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+body .container,
+html .container {
+  position: relative;
+}
+body .container .inner,
+html .container .inner {
+  background-color: #fff;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 900px;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+body .container .inner .background--description .title--area img,
+html .container .inner .background--description .title--area img {
+  width: 100%;
+  height: auto;
+}
+body .container .inner .background--description .explanation--area,
+html .container .inner .background--description .explanation--area {
+  text-align: left;
+  line-height: 1.5;
+}
+body .container button,
+html .container button {
+  padding: 1rem;
+  outline: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+}
+body .container button:hover,
+html .container button:hover {
+  cursor: pointer;
+}

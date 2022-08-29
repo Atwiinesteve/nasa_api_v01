@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+body,
+html {
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: 'Quicksand', sans-serif;
+ background-image: linear-gradient(rgba(12, 11, 11, 0.87), rgba(20, 19, 19, 0.61)), url('../images/nasa-pd4lo70LdbI-unsplash.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: center;
+ object-fit: cover;
+ overflow: hidden;
+
+ .container {
+  position: relative;
+  
+  .inner {
+   background-color: #fff;
+   padding: 1rem;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 900px;
+   height: auto;
+   transform: translate(-50%, -50%);
+
+   .background--description {
+    .title--area {
+     img {
+      width: 100%;
+      height: auto;
+     }
+    }
+    .explanation--area {
+     text-align: left;
+     line-height: 1.5;
+    }
+   }
+  }
+
+  button {
+   padding: 1rem;
+   outline: none;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 1rem;
+
+   &:hover {
+    cursor: pointer;
+   }
+  }
+
+ }
+
+}
